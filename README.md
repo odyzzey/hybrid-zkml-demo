@@ -1,11 +1,10 @@
-# RISC Zero Rust Starter Template
+# hybrid-layers
 
-Welcome to the RISC Zero Rust Starter Template! This template is intended to
-give you a starting point for building a project using the RISC Zero zkVM.
-Throughout the template (including in this README), you'll find comments
-labelled `TODO` in places where you'll need to make changes. To better
-understand the concepts behind this template, check out the [zkVM
-Overview][zkvm-overview].
+This is a quick sketch of a hypothetical concept called hybrid zkML.
+
+The general is that if zkVMs are typically cycle constrained to make running ML inference inside them one could, in a compromise, run a subset of layers/parameters inside the zkVM while the others run traditionally and still get some level of assurance regarding the soundness of the output.
+
+This definitely is not a full implementation of such a system but does demonstrate the structure.
 
 ## Quick Start
 
